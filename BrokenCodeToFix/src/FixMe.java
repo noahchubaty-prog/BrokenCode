@@ -1,15 +1,16 @@
 //This should be able to solve J3 as seen in Instructions.pdf.
+import java.util.Scanner;
 package ccc2019;
 
 /**
  *
  * @author SPH_SHSM
  */
-public class fixme {
+public class fix me {
 public static void main(String[] args) {
-scanner in = new Scanner(System.in);
+Scanner in = new Scanner(System.in);
 //Read in a number
-  int lines = in.nextInt;
+  int lines = in.nextint();
      in.nextLine();
      									string output="";
         //Loop through the lines
@@ -18,10 +19,10 @@ scanner in = new Scanner(System.in);
  String input = in.nextline();
             //Loop through the characters
  
- char currentChar='a'
- Integer currentCount='0';
+ char currentChar='a';
+ int currentCount='0';
  Char previousChar;
- For (int j = 0; j < input.length j++) 
+ For (int j = 0; j < input.length j++)
        //if this is the first pass through the loop
  			if (j=0){
                     //current char is the char at j
@@ -30,18 +31,18 @@ scanner in = new Scanner(System.in);
       currentCount=2;
  											}
                 //else
-                else
+ 			else;
                     //set previousChar to currentChar
                     previousChar == currentChar
                     //current character = charAt(i)
                     currentChar = Input.charAt(j);
                     //if the current and previous char are the same
- else if (currentChar = previousChar){
+ if (currentChar = previousChar){
                         //increase the count
                         currentCount++;
                     }
                     //else
-                    else if{
+                    
                         //print current count + " " + previousChar
                         output+= currentCount + " " +previousChar+" ";
                         //currentCount = 1
@@ -53,8 +54,8 @@ scanner in = new Scanner(System.in);
                         output+= currentCount + " " +currentChar+" ";
                     }
                     
-                }
-            }
+                
+            
             //Print newline
             output+="\n";
         }
