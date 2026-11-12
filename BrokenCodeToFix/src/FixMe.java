@@ -34,8 +34,8 @@ public class FixMe{
      			else {
                     //set previousChar to currentChar
                     previousChar = currentChar;
-                    //current character = charAt(i)
-                    currentChar = input.charAt(i);
+                    //current character = charAt(j)
+                    currentChar = input.charAt(j);
                     //if the current and previous char are the same
                     if (currentChar == previousChar) {
                         //increase the count
